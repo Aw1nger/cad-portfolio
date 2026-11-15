@@ -1,0 +1,16 @@
+node_modules
+.nuxt
+.output
+.data
+
+.git
+.gitignore
+
+.env
+.env.*
+
+.DS_Store
+.vscode
+.idea
+
+coverage

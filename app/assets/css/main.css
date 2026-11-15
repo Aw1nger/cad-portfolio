@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --portfolio-bg: #f4f2ed;
+  --portfolio-fg: #24251f;
+  --portfolio-accent: #d96c43;
+  --portfolio-muted: #77786f;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+body {
+  background: var(--portfolio-bg);
+  color: var(--portfolio-fg);
+  font-family: "Roboto", sans-serif;
+}
+
+::selection {
+  background: var(--portfolio-accent);
+  color: white;
+}
+
+.portfolio-prose {
+  width: 100%;
+  min-width: 0;
+}
